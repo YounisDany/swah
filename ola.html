@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العلا</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+  <section class="swiper mySwiper">
+
+    <div class="swiper-wrapper">
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Elephant_Rock_2020.jpg/1280px-Elephant_Rock_2020.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">مدينة العلا</span>
+          <span class="card__name"></span>
+          <p class="card__text">العلا إحدى مدن المملكة العربية السعودية، تقع شمال غرب المملكة، وتتبع إدارياً لإمارة منطقة المدينة المنورة، وتبعد عن مركز الإمارة تقريبًا 300 كيلو متر شمالًا، وعاصمة لمحافظة العلا. </p>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Al_Ula_old_town%2C_Saudi_Arabia_2011.jpg/1280px-Al_Ula_old_town%2C_Saudi_Arabia_2011.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">مدينة العلا</span>
+   
+          <p class="card__text"> يصل عمر الاستيطان البشري فيها إلى نحو 4000 عام، وهي أحد أهم الوجهات السياحية في السعودية.</p>
+      
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Al_Ula_%286748577917%29.jpg/1280px-Al_Ula_%286748577917%29.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">مدينة العلا </span>
+          <p class="card__text">سميت العلا بعدة أسماء قبل الاستقرار على اسمها الحالي، ففي القرن السادس قبل الميلاد سُميت بـ ديدان، نسبة للشعب الديداني الذي استوطنها وأنشأ مملكةً فيها. وفي العصر الجاهلي عُرفت بـ قُرْح إبان نشاطها كسوق تجارية مهمة عند العرب. وفي فترة لاحقة حتى نهاية القرن السادس الهجري، أطلق عليها وادي القرى بسبب كثرة القرى فيه. وبدءًا من القرن السابع الهجري سُميت باسمها اليوم، العُلا. ويقال أنها سميت بذلك منذ القرن الثاني الهجري، لكن شيوع الاسم تأخر حتى القرن السابع.</p>
+        </div>
+      </div>
+
+     
+
+    </div>
+  </section>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>
