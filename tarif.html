@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حي الطريف </title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+  <section class="swiper mySwiper">
+
+    <div class="swiper-wrapper">
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Diriyahpic.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title"> حي الطريف</span>
+          <span class="card__name"></span>
+          <p class="card__text">حي الطُّرَيْف أحد أهم المواقع السياسية والجغرافية في المملكة العربية السعودية منذ نشأة الدولة السعودية الأولى. يقع الحي في قلب شبه الجزيرة العربية، وبالتحديد في الدرعية شمال غرب الرياض،</p>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="https://static.hiamag.com/styles/autox754/public/article/01/12/2020/9972581-816261579.png" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title"> حي الطريف</span>
+   
+          <p class="card__text"> إذ كان الحي أول عاصمة لأسرة آل سعود. يحمل حي الطُّريف الذي أُسس في القرن الخامس عشر الميلادي آثار الأسلوب المعماري النجدي الذي يتفرد به وسط شبه الجزيرة العربية، وتنامى في القرن الثامن عشر وبداية القرن التاسع عشر الدور السياسي والديني لحي الطريف وأضحى مركزًا لسلطة آل سعود وانتشار الإصلاح السلفي في الإسلام</p>
+      
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="https://static.hiamag.com/styles/autox754/public/article/01/12/2020/9972581-816261579.png" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title"> حي الطريف </span>
+          <p class="card__text"> يضم الحي آثار للكثير من القصور، فضلاً عن مدينة بُنيت على ضفاف واحة الدرعية. تم تسجيل موقع حي الطريف بالدرعية التاريخية ضمن قائمة التراث العمراني العالمي باليونسكو في عام 1431 هـ الموافق 2010م.</p>
+        </div>
+      </div>
+
+     
+
+    </div>
+  </section>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>
