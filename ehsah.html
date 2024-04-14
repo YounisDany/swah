@@ -1,1 +1,88 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>واحة الاحساء</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+  <section class="swiper mySwiper">
+
+    <div class="swiper-wrapper">
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Al-Ahsa_Palm_Oasis_2023.jpg/1280px-Al-Ahsa_Palm_Oasis_2023.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title"> واحة الاحساء</span>
+          <span class="card__name"></span>
+          <p class="card__text">واحة الْأَحْسَاء؛ المعروفة أيضًا باسم الْحَسَاء أو هَجَر، هي منطقة تاريخية تقليدية في شرق المملكة العربية السعودية، تقع في محافظة الأحساء وهي تشكل معظم المنطقة الشرقية. تقع الواحة على بعد حوالي 60 كلومتر من ساحل الخليج العربي.</p>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="https://vid.alarabiya.net/images/2020/10/08/4a1b0959-1a5c-4d0a-8a43-e99f2630c260/4a1b0959-1a5c-4d0a-8a43-e99f2630c260_16x9_1200x676.jpeg?width=801&format=jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title"> واحة الاحساء</span>
+   
+          <p class="card__text"> واحة الأحساء.. من أكبر وأشهر واحات النخيل الطبيعية في العالم من خلال أكثر من 3 مليون نخلة منتجة لأجود التمور تحتضنها الواحة بين ثناياها، فضلاً عن الموقع الجغرافي والتاريخي الهام الذي تتميّز به وأهلها لتكون صلة الوصل بين الحضارات القديمة منذ آلاف السنين، </p>
+      
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="https://saudipedia.com/saudipedia/uploads/images/2023/09/16/thumbs/600x600/61609.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title"> واحة الاحساء </span>
+          <p class="card__text">الأحساء هي كلمة الجمع التي تشير إلى الرمل المتراكم مع طبقة كتيمة تحتها. وهكذا عندما ينزل المطر، ستمتص المياه عبر الرمال، وتحميها من التبخر بواسطة الرمال، وتحتفظ بها الطبقة الأساسية، مكونة طبقة المياه الجوفية. ومن ثم، سيصبح الموقع عند الحفر مثل ربيع بارد حلو.</p>
+        </div>
+      </div>
+
+     
+
+    </div>
+  </section>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>
